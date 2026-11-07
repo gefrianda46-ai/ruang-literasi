@@ -69,6 +69,8 @@ export function scoreAnswer(answerText: string, keywords: string[]) {
   return { matched, points }
 }
 
+
+
 export function toScore(totalPoints: number, maxPoints: number) {
   if (!maxPoints) return 0
   return Math.round((totalPoints / maxPoints) * 1000) / 10

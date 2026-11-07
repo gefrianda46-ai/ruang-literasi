@@ -34,7 +34,7 @@ export default async function HomePage() {
           <span className="flex size-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <BookOpenText className="size-5" />
           </span>
-          Literasi Kritis
+          Ruang Literasi
         </div>
         <LoginDialog variant="outline" size="lg" className="h-10 px-5">
           Masuk
@@ -46,14 +46,13 @@ export default async function HomePage() {
           <div className="flex flex-col items-start gap-6">
             <span className="inline-flex items-center gap-2 rounded-full bg-secondary px-3 py-1 text-sm font-medium text-secondary-foreground">
               <Sparkles className="size-4 text-accent" />
-              Platform literasi untuk perkuliahan
+              Membaca adalah jendela dunia
             </span>
             <h1 className="text-4xl leading-tight font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl">
               Membaca dengan kritis, menjawab dengan percaya diri.
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-pretty text-muted-foreground">
-              Dosen mengunggah bacaan dan tugas berpikir kritis. Mahasiswa membaca dalam buku
-              interaktif, menjawab, dan langsung melihat nilainya.
+              Selamat datang!
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <LoginDialog size="lg" className="h-12 px-7 text-base">
@@ -95,8 +94,7 @@ export default async function HomePage() {
         <section className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6">
           <h2 className="mb-2 text-3xl font-semibold">Lima kategori berpikir kritis</h2>
           <p className="mb-8 max-w-2xl text-muted-foreground">
-            Setiap bacaan memiliki pertanyaan dari kelima kategori berikut, dan tiap pertanyaan
-            bernilai maksimal 8 poin.
+            ----------------------------------------------------
           </p>
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
             {CATEGORIES.map((category, index) => (
@@ -116,7 +114,7 @@ export default async function HomePage() {
       </main>
 
       <footer className="border-t border-border py-6 text-center text-sm text-muted-foreground">
-        Literasi Kritis - ruang belajar membaca, berpikir, dan menjawab.
+        Ruang Literasi - ruang belajar membaca, berpikir, dan menjawab.
       </footer>
     </div>
   )

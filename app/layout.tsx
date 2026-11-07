@@ -17,9 +17,9 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: 'Literasi Kritis - Membaca, Berpikir, Menjawab',
+  title: 'Ruang Literasi - Membaca, Berpikir, Menjawab',
   description:
-    'Platform literasi kritis untuk mahasiswa dan dosen: baca teks dalam buku interaktif, kerjakan tugas lima kategori berpikir kritis, dan lihat nilai otomatis.',
+    'Platform Ruang Literasi untuk mahasiswa dan dosen: baca teks dalam buku interaktif, kerjakan tugas lima kategori berpikir kritis, dan lihat nilai otomatis.',
   icons: {
     icon: [
       {

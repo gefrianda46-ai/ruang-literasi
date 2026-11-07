@@ -23,7 +23,7 @@ export function AppHeader({ user }: { user: AppUser }) {
             <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <BookOpenText className="size-4" />
             </span>
-            Literasi Kritis
+            Ruang Literasi
           </Link>
           <nav aria-label="Navigasi utama" className="hidden items-center gap-1 md:flex">
             {NAV[user.role].map((item) => (
